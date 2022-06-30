@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile.css">
+    <title>Projeto Viagens</title>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header class="topo">
+        <div class="logomarca"> <img src="imagens/logo.png" alt="logo" class="logo"> Logo </div>
+        <img src="imagens/lupa.png" alt="pesquisar" class="pesquisar">
+    </header>
+    <main>
+
+    <!--Página Principal com Formulário-->
+        <section class="c1">
+                <div class="c1-caixa">
+                    <nav class="c1-caixa-topo">
+                        <a href="#" style="background-color: rgb(240, 45, 45)">Flight</a>
+                        <a href="#">Hotel</a>
+                        <a href="#">Rental</a>
+                    </nav>
+                    <form class="c1-formulario">
+                        <h1>Travel the world with us</h1>
+                        <fieldset class="c1-formulario-campo">
+                            <div>
+                                <label>From</label><br>
+                                <input type="text" value="Departing from">
+                            </div>
+                            <div>
+                                <label>To</label><br>
+                                <input type="text" value="Arriving at">
+                            </div>
+                        </fieldset>
+                        <button>Search and find dates</button>        
+                    </form>
+                </div>
+        </section>
+
+         <!-- Good Offers -->
+        <section class="c2">
+            <h2>Good Offers Right Now</h2>
+            <p>Up to <strong>50%</strong> discount</p>   
+            <div class="c2-imagens">
+                    <div class="c2-bloco1">
+                        <div class="imagem">
+                            <img src="imagens/cinqueterre525.jpg" alt="foto_cinqueterre" id="cinqueterre">
+                            <div id="leg-cinque"><h2>Cinque Terre</h2></div>
+                        </div>
+                    </div>
+                    <div class="c2-bloco2">
+                        <div class="imagem">
+                            <picture>
+                                <source media="(max-width: 700px)" srcset="imagens/newyork525.jpg">
+                                <img src="imagens/newyork255.jpg" alt="foto_newyork" id="newyork">
+                                <div id="leg-newyork"><h2>New York</h2></div>
+                            </picture>
+                           
+                        </div>
+                        <div class="imagem">
+                            <picture>
+                                <source media="(max-width: 700px)" srcset="imagens/sanfran525.jpg">
+                                <img src="imagens/sanfran255.jpg" alt="foto_sanfrancisco" id="sanfrancisco">
+                                <div id="leg-sanfran"><h2>San Francisco</h2></div>
+                            </picture>
+                        </div>
+                        <div class="imagem">
+                            <picture>
+                                <source media="(max-width: 700px)" srcset="imagens/pisa525.jpg">
+                                <img src="imagens/pisa255.jpg" alt="foto_pisa" id="pisa">
+                                <div id="leg-pisa"><h2>Pisa</h2></div>
+                            </picture>
+                        </div>
+                        <div class="imagem">
+                            <picture>
+                                <source media="(max-width: 700px)" srcset="imagens/paris525.jpg">
+                                <img src="imagens/paris255.jpg" alt="foto_paris" id="paris">
+                                <div id="leg-paris"><h2>Paris</h2></div>
+                            </picture>
+                        </div>
+                    </div>
+
+            </div>
+        </section>
+
+         <!-- Explore -->
+        <section class="c3">
+                <h2>Explore Nature</h2>
+                <p>Travel with us and see nature at its finest</p>
+            
+                <div class="c3-imagens">
+                    <div class="c3-imagens-bloco1">
+                        <img src="imagens/ocean.jpg" alt="foto_westcoast" id="ocean">
+                        <h3 class="c3-titulo">West Coast, Norway</h3>
+                        <h4 class="c3-subtitulo">Roundtrip from $79</h4>
+                        <p class="c3-paragrafo">Praesent tincidunt sed tellus ut rutrum sed vitae justo</p>
+                        <a href="#" class="c3-link">Buy Tickets</a>
+                    </div>
+                    <div class="c3-imagens-bloco2">
+                        <img src="imagens/mountains.jpg" alt="foto_mountains" id="mountains">
+                        <h3 class="c3-titulo">Mountains, Austria</h3>
+                        <h4 class="c3-subtitulo">One-way from $39</h4>
+                        <p class="c3-paragrafo">Praesent tincidunt sed tellus ut rutrum sed vitae justo</p>
+                        <a href="#" class="c3-link">Buy Tickets</a>
+                    </div>
+                </div>
+        </section>
+
+         <!-- Newsletter-->
+        <section class="c4">
+                <div class="c4-caixa">
+                    <div>
+                        <h2 class="c4-titulo">Get the best offers first!</h2>
+                        <p class="c4-paragrafo">Join our newsletter.</p>
+                    </div>
+                    <form action="" class="c4-formulario">
+                        <label>E-mail</label><br>
+                        <input type="text" value="Your Email address">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+        </section>
+
+         <!-- Contact -->
+        <section class="c5">
+                <div class="c5-info">
+                    <h2 class="c5-info-titulo">Contact</h2>
+                    <h3 class="c5-info-subtitulo">Let us book your next trip!</h3>
+                    <p class="c5-info-paragrafo">Chicago, US</p>
+                    <p class="c5-info-paragrafo">Phone: +00 151515</p>
+                    <p class="c5-info-paragrafo">Email: mail@mail.com</p>
+                </div>
+                <form action="#" class="c5-formulario">
+                    <input type="text" value="Name">
+                    <input type="text" value="Email">
+                    <input type="text" value="Message">
+                    <button>SEND MESSAGE</button>
+                </form>  
+        </section>
+    </main>
+    <footer>
+            <p id="footer-p1">Find Us On</p>
+            <div class="redes-sociais">
+                <img src="imagens/facebook-pq.png" alt="facebook" class="redes-sociais-tm">
+                <img src="imagens/instagram-pq.png" alt="instagram" class="redes-sociais-tm">
+                <img src="imagens/snapchat-pq.png" alt="snapchat" class="redes-sociais-tm">
+                <img src="imagens/pinterest-pq.png" alt="pinterest" class="redes-sociais-tm">
+                <img src="imagens/twitter-pq.png" alt="twitter" class="redes-sociais-tm">
+                <img src="imagens/linkedin-pq.png" alt="linkedin" class="redes-sociais-tm">
+            </div>
+            <p id="footer-p2">Powered by <a href="#">w3.css</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,445 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 66, 66);
+}
+
+.topo {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.logomarca {
+    color: rgb(240, 45, 45);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 26px;
+}
+
+.logo {
+    width: 20px;
+
+}
+
+.pesquisar {
+    width: 25px;
+    height: 25px;
+}
+
+body {
+    font-size: 1em;
+    background-color: rgb(240, 240, 240);
+}
+
+h1, h2, h3 {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(imagens/london.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.c1-caixa {
+    background-color: white;
+    width: 880px;
+    max-width: 100%;
+
+}
+
+.c1-caixa-topo {
+    width: 100%;
+    min-height: 35px;
+    background-color: black; 
+    color: white;
+    font-size: 0; /*zerei o tamanho da fonte para remover o espaço entre as divs*/
+}
+
+.c1-caixa-topo a {
+    width: 33.33%;
+    padding: 8.5px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px; /*inseri manualmente para remover o espaço entre as divs*/
+    color: white;
+}
+
+
+.c1-caixa-topo a:hover {
+    background-color: rgb(240, 45, 45);
+    color: white;
+
+}
+
+.c1-formulario {
+    min-height: 204px;
+    padding: 20px 15px;
+}
+
+.c1-formulario h1 {
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.c1-formulario-campo {
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    
+}
+
+.c1-formulario-campo input {
+    padding: 10px;
+    width: 420px;
+    max-width: 93vw;
+    color: rgb(151, 150, 150);
+    font-size: 1em;
+    border:1px solid rgb(223, 222, 222);
+}
+
+.c1-formulario button {
+    padding: 10px 25px;
+    cursor: pointer;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    font-size: 1em;
+    border: 0;
+}
+
+.c1-formulario button:hover {
+    background-color: rgb(114, 113, 113);
+}
+
+.c2 {
+    width: 1112px;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.c2 h2 {
+    padding-bottom: 10px;
+}
+
+.c2-imagens {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.c2-bloco1 {
+    width: 536px;
+}
+
+.c2-bloco2 {
+    width: 536px;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    column-gap: 19px;
+    justify-content: flex-end;
+}
+
+.imagem {
+    position: relative;
+}
+
+.imagem h2 {
+    color: white;
+    font-size: 1.2em;
+}
+
+#leg-cinque {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+#leg-newyork {
+    position: absolute; 
+    left: 16px;
+    bottom: 16px;
+}
+
+#leg-sanfran {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+}
+
+
+#leg-pisa {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+}
+
+#leg-paris {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+       
+}
+
+#cinqueterre {
+    max-width: 100%;
+    padding-bottom: 13px;
+
+}
+
+#newyork {
+    max-width: 100%;
+    padding-bottom: 15px;
+
+}
+
+#sanfrancisco {   
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+#pisa {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+#paris {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.c3 {
+    width: 1112px;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.c3 h2 {
+    padding-bottom: 15px;
+}
+
+.c3-imagens {
+    padding-top: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.c3-imagens-bloco1 {
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.c3-imagens-bloco2 {
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+#ocean {
+    width: 525px;
+    max-width: 100%;
+    height: auto;
+}
+
+#mountains {
+    width: 525px;
+    max-width: 100%;
+    height: auto;
+}
+
+.c3-titulo {
+    padding: 15px;
+}
+
+.c3-subtitulo {
+    padding-left: 15px;
+    font-size: 1em;
+    font-weight: lighter;
+    color: rgb(180, 177, 177);
+}
+
+.c3-paragrafo {
+    padding: 15px;
+}
+
+.c3-link {
+    padding: 30px;
+    font-size: 1em;
+}
+
+.c4 {
+    width: 1112px;
+    max-width: 100%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.c4-caixa {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 30px 15px 15px 15px;
+    background-color: rgb(100, 99, 99);
+}
+
+.c4-titulo {
+    color: white;
+    font-size: 2em;
+    padding-bottom: 22px;
+}
+
+.c4-paragrafo {
+    padding-bottom: 20px;
+    color: white;
+}
+
+.c4-formulario {
+    font-size: 1em;    
+}
+
+.c4-formulario label {
+    color: white;
+}
+
+.c4-formulario input {
+    padding: 10px;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    border: 1px solid silver;
+    color: silver;
+}
+
+
+.c4-formulario button {
+    padding: 10px 15px;
+    margin-bottom: 3px;
+    background-color: rgb(252, 138, 138);
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.c4-formulario button:hover {
+    padding: 10px 15px;
+    margin-bottom: 3px;
+    background-color: rgb(250, 158, 158);
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.c5 {
+    width: 1112px;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 28px;  
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.c5-info {
+    padding-bottom: 10px;
+    line-height: 1.4;
+}
+
+.c5-info-titulo {
+    font-size: 2em;
+    padding-bottom: 12px;
+}
+
+.c5-info-subtitulo {
+    font-size: 1em;
+    padding-bottom: 14px;
+}
+
+.c5-info-paragrafo {
+    padding-bottom: 3px;
+}
+
+
+.c5-formulario input {
+    padding: 18px 10px;
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid silver;
+    color: silver;
+    margin-bottom: 15px;
+}
+
+.c5-formulario button {
+    padding: 13px 15px;
+    font-size: 1em;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.c5-formulario button:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+footer {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#footer-p1 {
+    font-size: 1.2em;
+    color: rgb(148, 148, 148);
+}
+
+#footer-p2 {
+    color: rgb(148, 148, 148);
+}
+
+footer a {
+    color: rgb(148, 148, 148);  
+    text-decoration: underline;
+}
+
+.redes-sociais-tm {
+    width: 20px;
+}
